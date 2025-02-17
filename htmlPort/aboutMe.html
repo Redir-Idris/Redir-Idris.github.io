@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio aboutMe page">
+    <meta name="author" content="Redir Idris">  
+    <title>About Me</title>
+    <link rel="stylesheet" href="zemzem.css">
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"/>
+
+      <!--AOS Library css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!--CDN.JS Library Font-Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--NAVBAR --- START-->
+    <header>
+        <img class="logo" src="loga-icon.png" alt="loga">
+        <nav>
+            <ul class="nav-link">
+                <li class="nav-itam"><i class="fa-solid fa-house"></i><a class="active" href="index.html">Home</a></li>
+                <li class="nav-itam"><i class="fa-solid fa-user"></i><a href="aboutMe.html">About Me</a></li>
+                <li class="nav-itam"><i class="fa-solid fa-bars-progress"></i><a href="projects.html">Projekts and Skills</a></li>
+            </ul>
+        </nav>
+        <a href="contact.html"><button>Contact</button></a>
+    </header>
+    <!--NAVBAR --- END-->
+
+
+
+    <!--ABOUT --- START-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="AboutMe2.jpg" data-aos="flip-right" data-aos-duration="3000">
+        </div>
+
+        <div class="about-text">
+            <h3>I'm a fullstack student</h3>
+            <h2>I only can do the basic stuff, this page is a example</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+               Doloribus eius cum fugit alias vero omnis expedita. 
+               Odio, ex mollitia necessitatibus eligendi suscipit.</p>
+            <a href="#" class="about-btn">Hire me</a>
+        </div>
+    </section>
+    <!--ABOUT --- START-->
+    
+
+    <!--FOOTER --- Start-->
+    <footer class="footer">
+        <div class="social-media-container">
+            <h3 data-aos="fade-down" data-aos-duration="3000">Follow my journey</h3>
+            <div class="border"></div>
+            <div class="social-media-buttons">
+                <a href="www.linkedin.com/in/redir-idris-stockholm"><i class="fa-brands fa-linkedin fa-lg fa-bounce"></i></a>
+                <a href="https://github.com/Redir-Idris"><i class="fa-brands fa-github fa-lg fa-spin"></i></a>
+                <a href="https://www.instagram.com/redir_idris/"><i class="fa-brands fa-instagram fa-lg fa-beat"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!--FOOTER --- END-->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>

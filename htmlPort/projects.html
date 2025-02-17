@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio aboutMe page">
+    <meta name="author" content="Redir Idris">  
+    <title>Projects and Skills</title>
+    <link rel="stylesheet" href="zemzem.css">
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"/>
+
+    <!--CDN.JS Library Font-Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    <!--AOS Library css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <img class="logo" src="loga-icon.png" alt="loga">
+    <nav>
+        <ul class="nav-link">
+            <li class="nav-itam"><i class="fa-solid fa-house"></i><a class="active" href="index.html">Home</a></li>
+            <li class="nav-itam"><i class="fa-solid fa-user"></i><a href="aboutMe.html">About Me</a></li>
+            <li class="nav-itam"><i class="fa-solid fa-bars-progress"></i><a href="projects.html">Projekts and Skills</a></li>
+        </ul>
+    </nav>
+    <a href="contact.html"><button>Contact</button></a>
+</header>
+
+    <!--Skill --- Start-->
+    <section class="sec-skill">
+    <div class="skills">
+      <div class="skill-text" data-aos="flip-left" data-aos-duration="3000">
+        <h2>My Skills</h2>
+        <p>As you can see, I'm still a rookie and have lot to learn</p>
+      </div><br>
+      <div class="skill">
+        <div class="skill-name">HTML</div>
+        <div class="skill-bar">
+          <div class="skill-per" per="50%" style="max-width:50%;"></div>
+        </div>
+      </div>
+  
+      <div class="skill">
+        <div class="skill-name">CSS</div>
+        <div class="skill-bar">
+          <div class="skill-per" per="30%" style="max-width:30%;"></div>
+        </div>
+      </div>
+  
+      <div class="skill">
+        <div class="skill-name">JavaScript</div>
+        <div class="skill-bar">
+          <div class="skill-per" per="10%" style="max-width:10%;"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Skill --- Start-->
+
+  <!--Projekts --- Start-->
+ <!--<section class="showcase">
+    <p>Projects I have worked on</p>
+    <hr>
+  </section>--> 
+
+  <section class="sec-project">
+    <div class="showcase">
+      <h2>Projects I have worked on</h2>
+      <hr>
+    </div>
+    <div class="card-list">
+      <article class="card">
+        <div class="card-header">
+          <h2>Welcome to Stockhom</h2>
+          <a href="#" target="_blank" class="icon-button">
+            <i class="fa-brands fa-github-alt fa-sm"></i>
+          </a>
+        </div>
+        <div class="card-body">
+          <p>This was my first webpage, build with HTML and CSS about Stockholm, 
+            it's about things tourist can do in the city </p>
+        </div>
+        <div class="card-footer">
+          <div class="card-meta">HTML and CSS</div>
+        </div>
+      </article>
+    </div>
+
+    <article class="card">
+      <div class="card-header">
+        <h2>Calculater</h2>
+        <a href="#" target="_blank" class="icon-button">
+          <i class="fa-brands fa-github-alt fa-xs"></i>
+        </a>
+      </div>
+      <div class="card-body">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Autem pariatur impedit velit n </p>
+        </div>
+        <div class="card-footer">
+          <div class="card-meta">JavaScript</div>
+        </div>
+      </article>
+    </div>
+
+
+    <article class="card">
+      <div class="card-header">
+        <h2>Blank until next projekt</h2>
+        <a href="#" target="_blank" class="icon-button">
+          <i class="fa-brands fa-github-alt fa-xs"></i>
+         <!--<img class="koko" src="loga-icon.png" alt="icon-loga">--> 
+        </a>
+      </div>
+      <div class="card-body">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Saepe consequatur voluptas consectetur officiis </p>
+        </div>
+        <div class="card-footer">
+          <div class="card-meta">HTML and CSS</div>
+        </div>
+      </article>
+    </div> 
+  </section>
+  <!--Projekts --- End-->
+
+
+    <!--FOOTER --- Start-->
+    <footer class="footer">
+      <div class="social-media-container">
+          <h3 data-aos="fade-down" data-aos-duration="3000">Follow my journey</h3>
+          <div class="border"></div>
+          <div class="social-media-buttons">
+              <a href="www.linkedin.com/in/redir-idris-stockholm"><i class="fa-brands fa-linkedin fa-lg fa-bounce"></i></a>
+              <a href="https://github.com/Redir-Idris"><i class="fa-brands fa-github fa-lg fa-spin"></i></a>
+              <a href="https://www.instagram.com/redir_idris/"><i class="fa-brands fa-instagram fa-lg fa-beat"></i></a>
+          </div>
+      </div>
+  </footer>
+  <!--FOOTER --- END-->
+  
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+          AOS.init();
+        </script>
+  
+    </body>
+</html>
